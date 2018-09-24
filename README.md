@@ -1,8 +1,7 @@
 # bettermotherfuckingwebsite
 
 Day 3 
-
-https://github.com/MelisandeF/bettermotherfuckingwebsite
+https://melisandef.github.io/bettermotherfuckingwebsite/
 I have tried to add JS but it doesn't work well. I think the error is about the link betwenn the different files.
 CSS is almost ok, there is just a little mistake with the font.
 
