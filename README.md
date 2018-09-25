@@ -9,4 +9,6 @@ I have some problem with my commit. I think it's because I haven't the habit to 
 
 I know that my code could be better if I had commented so sorry.
 
+I can't understand why my domain redirect on my README rather than my folder. =( i hope i could learn that soon with THP 
+
 Thank's for reading. 
