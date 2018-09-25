@@ -1,4 +1,4 @@
-# bettermotherfuckingwebsite
+melisandef.github.io/bettermotherfuckingwebsite/
 
 Day 3 
 https://melisandef.github.io/bettermotherfuckingwebsite/
