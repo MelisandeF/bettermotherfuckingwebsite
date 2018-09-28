@@ -8,14 +8,25 @@
 		</head>
 
 		<body>
-			<div class="button_container">
-				<button id="button_modal" oneclick="openModal()"><a href=" https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Do you wanna go to xxvidxx ?</a></button>
-			</div>
-			<div class="button_container" ">
-				<button id="close" onclick="closeModal()"> Close Me </button>
-			</div>
-			<script src="app.js"
-			type="text/javascript"></script>
+
+
+<button onclick="myFunction()">Do you wanna go to xxvidxx ?</button>
+
+<p id="button_container"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Do you wanna go to xxvidxx ?")) {
+        txt =  "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+
 			<header>
 				<h1>This is <em>still</em> a motherfucking website.</h1>
 
