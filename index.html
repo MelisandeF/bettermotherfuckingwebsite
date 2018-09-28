@@ -10,12 +10,15 @@
 		<body>
 
 
-<button onclick="myFunction()">Do you wanna go to xxvidxx ?</button>
+<button onclick="myFunction()">Touch me</button>
 
 <p id="button_container"></p>
 
 <script>
 function myFunction() {
+    var count=5;
+    var counter=setInterval(timer,1000);
+        function timer() {
     var txt;
     if (confirm("Do you wanna go to xxvidxx ?")) {
         txt =  "You pressed OK!";
@@ -24,6 +27,23 @@ function myFunction() {
     }
     document.getElementById("demo").innerHTML = txt;
 }
+</script>
+
+<script>
+function init() {
+    var count=5;
+    var counter=setInterval(timer,1000);
+        function timer(){
+            count=count-1;
+            if(count==0){
+                alert("Do you wanna go to xxvidxx ?")
+                window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                txt = "No thank's";
+            } 
+    }
+        }
+    
+    window.onload = init;
 </script>
 
 
